@@ -56,6 +56,10 @@
     .app-bar .app-bar__brand h1 {
       font-size: 2em;
     }
+    .jumbotron {
+      height: 60vh;
+      background-size: cover;
+    }
   }
 
   @media screen and (min-width: 850px) {
@@ -72,10 +76,7 @@
       grid-template-columns: repeat(4, 1fr);
     }
     .jumbotron {
-      width: 1200px;
-      margin: 0 auto;
-      border-radius: 0.5rem;
-      overflow: hidden;
+      background-size: contain;
     }
     .jumbotron-overlay {
       padding: 1rem 0rem;
